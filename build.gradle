@@ -23,6 +23,9 @@ allprojects {
         google()
         jcenter()
     }
+
+    //    NOTE: The dependencies which are common in all the projects can be
+    //    declared here in the project folder in the dependencies {} block
 }
 
 task clean(type: Delete) {
